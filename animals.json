@@ -1,0 +1,109 @@
+{
+    "animals": [
+        {
+            "name":"Blue Poison Arrow Frog",
+            "type":"amphibian",
+            "number": 21,
+            "isCarnivore": true,
+            "imageUrl": "https://www/speakcdn.com/assets/2147"
+        },
+        {
+            "name":"Axolotl",
+            "type":"amphibian",
+            "number": 22,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_axolotl-web.jpg"
+        },
+        {
+            "name":"Hellbender",
+            "type":"amphibian",
+            "number": 23,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_hellbender-sm.jpg"
+        },
+        {
+            "name":"Hyacinth Macaw",
+            "type":"bird",
+            "number": 69,
+            "isCarnivore": false,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_hyacinthmacaw3-sq.jpg"
+        },
+        {
+            "name":"Common Barn Owl",
+            "type":"bird",
+            "number": 77,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_barnowl1-sq.jpg"
+        },
+        {
+            "name":"Mandarin Duck",
+            "type":"bird",
+            "number": 77,
+            "isCarnivore": false,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_mandarinduck1.jpg"
+        },
+        {
+            "name":"Black Arowana",
+            "type":"fish",
+            "number": 420,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_black-arowana-web.jpg"
+        },
+        {
+            "name":"Lined Seahorse",
+            "type":"fish",
+            "number": 666,
+            "isCarnivore": false,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_lined-seahorse.jpg"
+        },
+        {
+            "name":"Lionfish",
+            "type":"fish",
+            "number": 128,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_lionfish1.jpg"
+        },
+        {
+            "name":"Alpaca",
+            "type":"mammal",
+            "number": 217,
+            "isCarnivore": false,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_alpaca1.jpg"
+        },
+        {
+            "name":"Goats",
+            "type":"mammal",
+            "number": 303,
+            "isCarnivore": false,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_nubian_goats_-_amiee_stubbs.jpg"
+        },
+        {
+            "name":"Two-Toed Sloth",
+            "type":"mammal",
+            "number": 303,
+            "isCarnivore": false,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_sloth-jim-bartoo-web.jpg"
+        },
+        {
+            "name":"Aldabra Tortoise",
+            "type":"reptile",
+            "number": 404,
+            "isCarnivore": false,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_koraline_-_aldabra_-_katie_gregory.jpg"
+        },
+        {
+            "name":"Komodo Dragon",
+            "type":"reptile",
+            "number": 768,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/komodo-blog.jpg"
+        },
+        {
+            "name":"Mata Mata",
+            "type":"reptile",
+            "number": 760,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/mata-mata-katie-gregory.jpg"
+        }
+    ]
+}

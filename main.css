@@ -1,3 +1,18 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+img {
+    height: 200px;
+    width: 350px;
+}
+
+.card {
+    width: 40%;
+    height: 400px;
+    padding: 25px;
+    margin: 25px;
+    border: solid #008CBA 1px;
+    background-color: aquamarine;
+    text-align: center;
+}

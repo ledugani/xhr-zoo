@@ -5,11 +5,12 @@ const printToDom = (domString, divId) => {
 const buildDomString = fancyArray => {
     let domString = "";
     fancyArray.forEach((animal) => {
-        domString += `<div class="card">`;
+        domString += `<div class="animal">`;
         domString += `<img src="${animal.imageUrl}">`;
         domString += `<h2>${animal.name}</h2>`;
-        domString += `<p>${animal.number}</p>`;
-        domString += `<button>Escaped</button>`;
+        domString += `<h3>${animal.number}</h3>`;
+        domString += `<div id="button-container">`
+        domString += `<button>Escaped</button></div>`;
         domString += `</div>`;
     });
     printToDom(domString, 'card-holder');

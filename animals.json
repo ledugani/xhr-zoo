@@ -3,7 +3,7 @@
         {
             "name":"Blue Poison Arrow Frog",
             "type":"amphibian",
-            "number": 21,
+            "number": 61,
             "isCarnivore": true,
             "imageUrl": "https://www.speakcdn.com/assets/2147/12_frogs.jpg"
         },
@@ -17,7 +17,7 @@
         {
             "name":"Hellbender",
             "type":"amphibian",
-            "number": 23,
+            "number": 213,
             "isCarnivore": true,
             "imageUrl": "https://www.speakcdn.com/assets/2147/12_hellbender-sm.jpg"
         },
@@ -31,7 +31,7 @@
         {
             "name":"Common Barn Owl",
             "type":"bird",
-            "number": 77,
+            "number": 72,
             "isCarnivore": true,
             "imageUrl": "https://www.speakcdn.com/assets/2147/12_barnowl1-sq.jpg"
         },

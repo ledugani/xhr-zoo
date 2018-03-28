@@ -23,16 +23,34 @@ const buildDomString = fancyArray => {
 
 const addEscapedEventListeners = () => {
     const escapedButtons = document.getElementsByClassName('escaped');
-
     for(let i=0; i < escapedButtons.length; i++) {
         escapedButtons[i].addEventListener('click', animalEscaped);
     }
-    // animalEscaped();
 };
 
-const animalEscaped = () => {
+const animalEscaped = e => {
+    const badAnimalButtonContainer = e.target.parentNode;
     showCarnivores();
     showVegetables();
+    showFoundButton(badAnimalButtonContainer);
+};
+
+const showFoundButton = (buttonContainer) => {
+    buttonContainer.innerHTML = `<button id="found">Found</button>`;
+    initializeFoundButton();
+};
+
+const initializeFoundButton = () => {
+    const foundButton = document.getElementById('found');
+    foundButton.addEventListener('click', () => {
+        const animals = document.getElementsByClassName('animal');
+        for (let l = 0; l < animals.length; l++) {
+            animals[l].children[3].innerHTML = `<button class='escaped'>Escaped</button>`;
+            animals[l].classList.remove('red');
+            animals[l].classList.remove('green');
+        }
+        addEscapedEventListeners();
+    })
 };
 
 const showCarnivores = () => {

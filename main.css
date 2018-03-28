@@ -25,3 +25,11 @@ img {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.red {
+    background-color: tomato;
+}
+
+.green {
+    background-color: mediumseagreen;
+}
